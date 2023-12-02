@@ -186,7 +186,7 @@
 
   </div>
   <!--/ Navigation end -->
-</header>
+</header> 
 <!--/ Header end -->
 
 <?php

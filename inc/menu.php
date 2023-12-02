@@ -29,6 +29,13 @@ switch ($page) {
 	case 'check-cert':
 		include 'pages/check-cert/check-cert.php';
 		break;
+	// Admin
+	case 'login';
+		include 'login/login.php';
+		break;
+	case 'dashboard';
+		include 'admin/dashboard.php';
+		break;
 	default:
 		include 'pages/home/home.php';
 		break;
