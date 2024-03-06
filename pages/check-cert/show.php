@@ -57,7 +57,9 @@ include 'inc/connection.php';
                   <th scope="col">#</th>
                   <th scope="col">Certificate Code</th>
                   <th scope="col">Training Name</th>
+
                   <th scope="col">Date</th>
+                  
                   <th scope="col">Accreditation Name</th>
                   <th scope="col">Participant Training</th>
                 </tr>

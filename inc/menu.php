@@ -26,9 +26,6 @@ switch ($page) {
 	case 'contact':
 		include 'pages/contact/contact.php';
 		break;
-	case 'check-cert':
-		include 'pages/check-cert/check-cert.php';
-		break;
 	// Admin
 	case 'login';
 		include 'login/login.php';

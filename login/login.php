@@ -2,51 +2,47 @@
         <div class="box">
         <div class="box-login" id="login">
             <div class="top-header">
-                <h3>Hello, Again!</h3>
-                <small>We are happy to have you back.</small>
+                <h3>Selamat Datang!</h3>
+                <small>Silahkan Login Terlebih Dahulu</small>
             </div>
             <div class="input-group">
+               <form action="/kanjut" method="post">
                  <div class="input-field">
-                    <input type="text" class="input-box" id="logEmail" required>
-                    <label for="logEmail">Email address</label>
+                    <input type="text" class="input-box" id="username" required>
+                    <label for="username">Username</label>
                  </div>
                  <div class="input-field">
-                    <input type="password" class="input-box" id="logPassword" required>
-                    <label for="logPassword">Password</label>
+                    <input type="password" class="input-box" id="password" required>
+                    <label for="password">Password</label>
                     <div class="eye-area">
                      <div  class="eye-box" onclick="myLogPassword()">
                       <i class="fa-regular fa-eye" id="eye"></i>
                       <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
                    </div>
-                 </div>
-                 </div>
-                 <div class="remember">
-                    <input type="checkbox" id="formCheck" class="check">
-                    <label for="formCheck">Remember Me</label>
-                 </div>
-                 <div class="input-field">
+                   </div>
+                   <div class="input-field">
                     <input type="submit" class="input-submit" value="Sign In" required>
                  </div>
-                 <div class="forgot">
-                    <a href="#">Forgot password?</a>
+               </form>
                  </div>
-                
+                 <!-- </div>  -->
             </div>
          </div>
             <!---------------------------- register --------------------------------------->
           <div class="box-register" id="register">
             <div class="top-header">
-                <h3>Sign Up, Now!</h3>
-                <small>We are happy to have you with us.</small>
+                <h3>Registrasi</h3>
+                <small>Silahkan isi Form Registrasi!</small>
             </div>
             <div class="input-group">
+               <form action="/kontol" method="post">
                  <div class="input-field">
-                    <input type="text" class="input-box" id="regUsername" required>
-                    <label for="regUsername">Username</label>
+                    <input type="text" class="input-box" id="nama" required>
+                    <label for="nama">Nama</label>
                  </div>
                  <div class="input-field">
-                    <input type="text" class="input-box" id="regEmail"  required>
-                    <label for="regEmail">Email address</label>
+                    <input type="text" class="input-box" id="username"  required>
+                    <label for="username">Username</label>
                  </div>
                  <div class="input-field">
                     <input type="password" class="input-box" id="regPassword"  required>
@@ -58,24 +54,21 @@
                     </div>
                   </div>
                  </div>
-                 
-                 <div class="remember">
-                    <input type="checkbox" id="formCheck2" class="check">
-                    <label for="formCheck2">Remember Me</label>
-                 </div>
                  <div class="input-field">
                     <input type="submit" class="input-submit" value="Sign Up" required>
                  </div>
+               </form>
             </div>
          </div>
          <div class="switch">
             <a href="#" class="login active" onclick="login()">Login</a>
             <a href="#" class="register" onclick="register()">Register</a>
             <div class="btn-active" id="btn"></div>
+
          </div>
          
         </div>
-        
+       
      </div>
      <script>
         var x = document.getElementById('login');
